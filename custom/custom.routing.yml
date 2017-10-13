@@ -21,3 +21,10 @@ custom.sub_page_with_parameter:
     _title: 'Tutorial sub-page with name parameter'
   requirements:
     _permission: 'access content'
+custom.form:
+  path: '/tutorial/form'
+  defaults:
+    _title: 'Tutorial form'
+    _form: '\Drupal\custom\Form\TutorialForm'
+  requirements:
+    _permission: 'access content'
