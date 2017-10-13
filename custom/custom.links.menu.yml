@@ -1,0 +1,4 @@
+custom.index_link:
+  route_name: custom.index
+  title: 'Menu link to tutorial index'
+  menu_name: main

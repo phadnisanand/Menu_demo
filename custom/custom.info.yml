@@ -1,0 +1,4 @@
+name: 'Drupal Menu Example'
+description: 'Just an Menu Example'
+core: 8.x
+type: module

@@ -1,0 +1,23 @@
+custom.index:
+  path: '/tutorial'
+  defaults:
+    _controller: '\Drupal\custom\Controller\TutorialController::index'
+    _title: 'Tutorial index'
+  requirements:
+    _permission: 'access content'
+ 
+custom.sub_page_for_druplicon:
+  path: '/tutorial/druplicon'
+  defaults:
+    _controller: '\Drupal\custom\Controller\TutorialController::subPageForDruplicon'
+    _title: 'Tutorial sub-page for Druplicon'
+  requirements:
+    _permission: 'access content'
+ 
+custom.sub_page_with_parameter:
+  path: '/tutorial/{name}'
+  defaults:
+    _controller: '\Drupal\custom\Controller\TutorialController::subPageWithParameter'
+    _title: 'Tutorial sub-page with name parameter'
+  requirements:
+    _permission: 'access content'

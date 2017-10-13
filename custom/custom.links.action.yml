@@ -1,0 +1,5 @@
+custom.index_action:
+  route_name: custom.index
+  title: 'Skip to tutorial'
+  appears_on:
+    - custom.index

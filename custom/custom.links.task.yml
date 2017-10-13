@@ -1,0 +1,9 @@
+custom.index_task:
+  route_name: custom.index
+  title: 'Tutorial index'
+  base_route: custom.index
+ 
+custom.sub_page_task:
+  route_name: custom.sub_page_for_druplicon
+  title: 'Tutorial subpage'
+  base_route: custom.index
